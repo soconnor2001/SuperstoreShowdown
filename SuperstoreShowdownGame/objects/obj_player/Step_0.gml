@@ -4,16 +4,22 @@
 
 //use WASD to move
 //use arrow Keys to move
-if(keyboard_check(ord("W"))){
+
+
+if(keyboard_check(ord("W")) and !instance_place(x, y-playerSpeed, obj_wall)){
+	//up
 	scr_VerticalMove(-playerSpeed,self)
 }
-if(keyboard_check(ord("S"))){
+if(keyboard_check(ord("S")) and !instance_place(x, y+playerSpeed, obj_wall)){
+	//down
 	scr_VerticalMove(playerSpeed,self)
 }
-if(keyboard_check(ord("A"))){
+if(keyboard_check(ord("A")) and !instance_place(x-playerSpeed, y, obj_wall)){
+	//left
 	scr_HorizonalMove(-playerSpeed,self)
 }
-if(keyboard_check(ord("D"))){
+if(keyboard_check(ord("D")) and !instance_place(x+playerSpeed, y, obj_wall)){
+	//right
 	scr_HorizonalMove(playerSpeed,self)
 }
 
