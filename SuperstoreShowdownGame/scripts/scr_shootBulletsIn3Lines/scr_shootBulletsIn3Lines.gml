@@ -4,21 +4,21 @@ function scr_shootBulletsIn3Lines(bulletObj, bulletAngle,sourceObj){
 	
 	//left bullet
 	
-	bullet = instance_create_layer(sourceObj.x,sourceObj.y,"Instances",bulletObj)
+	bullet = instance_create_layer(sourceObj.x,sourceObj.y,"Bullet_instances",bulletObj)
 	bullet.direction = (sourceObj.direction - bulletAngle) % 360
 	bullet.speed = bullet.bulletSpeed
 	
 	
 	//center bullet
 
-	bullet = instance_create_layer(sourceObj.x,sourceObj.y,"Instances",bulletObj)
+	bullet = instance_create_layer(sourceObj.x,sourceObj.y,"Bullet_instances",bulletObj)
 	bullet.direction = sourceObj.direction
 	bullet.speed = bullet.bulletSpeed
 	
 	
 	//right bullet
 	
-	bullet = instance_create_layer(sourceObj.x,sourceObj.y,"Instances",bulletObj)
+	bullet = instance_create_layer(sourceObj.x,sourceObj.y,"Bullet_instances",bulletObj)
 	bullet.direction = (sourceObj.direction + bulletAngle) % 360
 	bullet.speed = bullet.bulletSpeed
 	

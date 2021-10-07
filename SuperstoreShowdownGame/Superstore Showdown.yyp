@@ -12,6 +12,7 @@
     {"id":{"name":"spr_tempPlayerUp","path":"sprites/spr_tempPlayerUp/spr_tempPlayerUp.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":2,},
     {"id":{"name":"spr_tempPlayerAttack","path":"sprites/spr_tempPlayerAttack/spr_tempPlayerAttack.yy",},"order":4,},
+    {"id":{"name":"path_enemy2","path":"paths/path_enemy2/path_enemy2.yy",},"order":1,},
     {"id":{"name":"scr_shootBulletsIn3Lines","path":"scripts/scr_shootBulletsIn3Lines/scr_shootBulletsIn3Lines.yy",},"order":3,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":9,},
     {"id":{"name":"spr_tempPlayerRight","path":"sprites/spr_tempPlayerRight/spr_tempPlayerRight.yy",},"order":1,},
