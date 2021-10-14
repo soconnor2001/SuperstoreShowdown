@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 79,
-  "bbox_right": 436,
-  "bbox_top": 79,
-  "bbox_bottom": 436,
+  "bbox_left": 40,
+  "bbox_right": 445,
+  "bbox_top": 1,
+  "bbox_bottom": 473,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"aab7b38f-b3d5-45d7-8193-753e220ece7a","path":"sprites/spr_cursor/spr_cursor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aab7b38f-b3d5-45d7-8193-753e220ece7a","path":"sprites/spr_cursor/spr_cursor.yy",},"LayerId":{"name":"70549bca-e8e9-498c-a953-afe7f0cd2c14","path":"sprites/spr_cursor/spr_cursor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"resourceVersion":"1.0","name":"aab7b38f-b3d5-45d7-8193-753e220ece7a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4d9a9861-6453-43b6-87b1-552c2c5c7ba1","path":"sprites/spr_Food/spr_Food.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4d9a9861-6453-43b6-87b1-552c2c5c7ba1","path":"sprites/spr_Food/spr_Food.yy",},"LayerId":{"name":"95b72495-19c2-460c-a3ad-f42fc7d8f682","path":"sprites/spr_Food/spr_Food.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Food","path":"sprites/spr_Food/spr_Food.yy",},"resourceVersion":"1.0","name":"4d9a9861-6453-43b6-87b1-552c2c5c7ba1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},
+    "spriteId": {"name":"spr_Food","path":"sprites/spr_Food/spr_Food.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8c41a7ec-c7e4-42c7-92b9-c6be201295f4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aab7b38f-b3d5-45d7-8193-753e220ece7a","path":"sprites/spr_cursor/spr_cursor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2fd0a30a-27cb-4aa0-88bb-2ab5efcd1426","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d9a9861-6453-43b6-87b1-552c2c5c7ba1","path":"sprites/spr_Food/spr_Food.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 250,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},
+    "parent": {"name":"spr_Food","path":"sprites/spr_Food/spr_Food.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_cursor",
+    "name": "spr_Food",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70549bca-e8e9-498c-a953-afe7f0cd2c14","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"95b72495-19c2-460c-a3ad-f42fc7d8f682","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_cursor",
+  "name": "spr_Food",
   "tags": [],
   "resourceType": "GMSprite",
 }

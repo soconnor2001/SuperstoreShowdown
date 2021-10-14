@@ -1,5 +1,5 @@
 /// @description shoot bullets
 
-scr_shootBulletsIn3Lines(bulletObj, 45, self)
+scr_shootBulletsInArch(bulletObj, 3, 337.5, 45, self)
 
 alarm[0] = timeBtwnBullets
