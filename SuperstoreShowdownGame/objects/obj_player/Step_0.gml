@@ -39,20 +39,29 @@ playerDirection = point_direction(x,y,cursor.x,cursor.y)
 
 if(45<playerDirection and playerDirection<135){
 	//up sprite
-	sprite_index=spr_tempPlayerUp
+	sprite_index=spr_PlayerBack
 	
 }
 else if(135<=playerDirection and playerDirection<=225){
 	//left sprite
-	sprite_index = spr_tempPlayerLeft
+	sprite_index = spr_PlayerLeft
 	
 }
 else if(225<playerDirection and playerDirection<315){
 	//down sprite
-	sprite_index = spr_tempPlayerDown
+	sprite_index = spr_PlayerFront
 }
 else{
 	//right sprite
-	sprite_index = spr_tempPlayerRight
+	sprite_index = spr_PlayerRight
 }
 
+if(lastX = x and lastY = y){
+	image_speed = 0
+}
+else{
+	image_speed = 1
+}
+
+lastX =x
+lastY = y
