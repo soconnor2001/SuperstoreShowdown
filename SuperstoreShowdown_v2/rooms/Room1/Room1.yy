@@ -36,6 +36,9 @@
         {"properties":[
             {"propertyId":{"name":"enemyType","path":"objects/obj_enemySpawner/obj_enemySpawner.yy",},"objectId":{"name":"obj_enemySpawner","path":"objects/obj_enemySpawner/obj_enemySpawner.yy",},"value":"obj_foodPickUp","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_enemySpawner","path":"objects/obj_enemySpawner/obj_enemySpawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-11.000001,"scaleY":-13.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2432.0,"y":8512.0,"resourceVersion":"1.0","name":"inst_7C731247","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_lifeUp","path":"objects/obj_lifeUp/obj_lifeUp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1120.0,"y":9024.0,"resourceVersion":"1.0","name":"inst_3993666","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_invincibility","path":"objects/obj_invincibility/obj_invincibility.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-4608.0,"y":3776.0,"resourceVersion":"1.0","name":"inst_39E842BF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_invincibility","path":"objects/obj_invincibility/obj_invincibility.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_6028982B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":27.8444443,"scaleY":1.97777772,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_65DEF53B","tags":[],"resourceType":"GMRInstance",},
@@ -67,6 +70,9 @@
     {"name":"inst_12A22308","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5E96B75B","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7C731247","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3993666","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_39E842BF","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_6028982B","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -55,7 +55,29 @@ playerDirection = point_direction(x,y,cursor.x,cursor.y)
 
 
 walking = !(lastX = x and lastY = y)
-if(walking){
+
+if(instance_exists(obj_attack)){
+	
+	if(45<playerDirection and playerDirection<135){
+	//up sprite
+		sprite_index=spr_PlayerBackAttack
+	
+	}
+	else if(135<=playerDirection and playerDirection<=225){
+		//left sprite
+		sprite_index = spr_PlayerLeftAttack
+	
+	}
+	else if(225<playerDirection and playerDirection<315){
+		//down sprite
+		sprite_index = spr_PlayerFrontAttack
+	}
+	else{
+		//right sprite
+		sprite_index = spr_PlayerRightAttack
+	}
+}
+else if(walking){
 	//walking
 	
 	if(45<playerDirection and playerDirection<135){
