@@ -52,7 +52,7 @@ if(canAttack and mouse_check_button_pressed(1)){
 
 //point player toward mouse
 playerDirection = point_direction(x,y,cursor.x,cursor.y)
-
+moveDirection = point_direction(x,y,lastX,lastY)
 
 walking = !(lastX = x and lastY = y)
 
@@ -83,20 +83,46 @@ else if(walking){
 	if(45<playerDirection and playerDirection<135){
 	//up sprite
 		sprite_index=spr_PlayerBackWalking
-	
+		//reverse for walking backwards
+		if(225<moveDirection and moveDirection<315){
+			image_speed = -1
+		}
+		else{
+			image_speed = 1
+		}
 	}
 	else if(135<=playerDirection and playerDirection<=225){
 		//left sprite
 		sprite_index = spr_PlayerLeftWalking
-	
+		//reverse for walking backwards
+		if!(45<moveDirection and moveDirection<315){
+			image_speed = -1
+		}
+		else{
+			image_speed = 1
+		}
 	}
 	else if(225<playerDirection and playerDirection<315){
 		//down sprite
 		sprite_index = spr_PlayerFrontWalking
+		//reverse for walking backwards
+		if(45<moveDirection and moveDirection<135){
+			image_speed = -1
+		}
+		else{
+			image_speed = 1
+		}
 	}
 	else{
 		//right sprite
 		sprite_index = spr_PlayerRightWalking
+		//reverse for walking backwards
+		if(135<=moveDirection and moveDirection<=225){
+			image_speed = -1
+		}
+		else{
+			image_speed = 1
+		}
 	}
 }
 else{
@@ -121,6 +147,10 @@ else{
 	}
 	
 }
+
+moveDirection = point_direction(x,y,lastX,lastY)
+
+
 
 lastX =x
 lastY = y
