@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-score += 15
+score += pointValue
 instance_destroy()

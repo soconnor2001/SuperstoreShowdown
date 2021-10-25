@@ -6,3 +6,4 @@ if(path_index < 0){
 	path_start(pathToFollow,enemySpeed,path_action_restart,true)
 	
 }
+depth = -y

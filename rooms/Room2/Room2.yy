@@ -16,7 +16,6 @@
     {"instances":[],"visible":true,"depth":50,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Mouse_instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":75,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Bullet_instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.25,"scaleY":0.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":2368.0,"resourceVersion":"1.0","name":"inst_82FA344","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_staticEnemy","path":"objects/obj_staticEnemy/obj_staticEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.25,"scaleY":0.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":704.0,"resourceVersion":"1.0","name":"inst_3DAD83B6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -59,7 +58,6 @@
     {"name":"inst_36D832F0","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_1DCA9B56","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_74D9E64E","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_82FA344","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3DAD83B6","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_51441E24","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_11AB80F9","path":"rooms/Room2/Room2.yy",},

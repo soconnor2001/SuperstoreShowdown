@@ -23,6 +23,23 @@ if(keyboard_check(ord("D")) and !instance_place(x+playerSpeed, y, obj_wall)){
 	scr_HorizonalMove(playerSpeed,self)
 }
 
+//if(keyboard_check(ord("W")) and !scr_checkBox(x-105,y+140-playerSpeed,x+105,y+320-playerSpeed,obj_wall)){
+//	//up
+//	scr_VerticalMove(-playerSpeed,self)
+//}
+//if(keyboard_check(ord("S")) and !scr_checkBox(x-105,y+140+playerSpeed,x+105,y+320+playerSpeed,obj_wall)){
+//	//down
+//	scr_VerticalMove(playerSpeed,self)
+//}
+//if(keyboard_check(ord("A")) and !scr_checkBox(x-105-playerSpeed,y+140,x+105-playerSpeed,y+320,obj_wall)){
+//	//left
+//	scr_HorizonalMove(-playerSpeed,self)
+//}
+//if(keyboard_check(ord("D")) and !scr_checkBox(x-105+playerSpeed,y+140,x+105+playerSpeed,y+320,obj_wall)){
+//	//right
+//	scr_HorizonalMove(playerSpeed,self)
+//}
+
 
 // mouse click to attack
 
@@ -35,33 +52,107 @@ if(canAttack and mouse_check_button_pressed(1)){
 
 //point player toward mouse
 playerDirection = point_direction(x,y,cursor.x,cursor.y)
+moveDirection = point_direction(x,y,lastX,lastY)
 
+walking = !(lastX = x and lastY = y)
 
-if(45<playerDirection and playerDirection<135){
+if(instance_exists(obj_attack)){
+	
+	if(45<playerDirection and playerDirection<135){
 	//up sprite
-	sprite_index=spr_PlayerBack
+		sprite_index=spr_PlayerBackAttack
 	
-}
-else if(135<=playerDirection and playerDirection<=225){
-	//left sprite
-	sprite_index = spr_PlayerLeft
+	}
+	else if(135<=playerDirection and playerDirection<=225){
+		//left sprite
+		sprite_index = spr_PlayerLeftAttack
 	
+	}
+	else if(225<playerDirection and playerDirection<315){
+		//down sprite
+		sprite_index = spr_PlayerFrontAttack
+	}
+	else{
+		//right sprite
+		sprite_index = spr_PlayerRightAttack
+	}
 }
-else if(225<playerDirection and playerDirection<315){
-	//down sprite
-	sprite_index = spr_PlayerFront
+else if(walking){
+	//walking
+	
+	if(45<playerDirection and playerDirection<135){
+	//up sprite
+		sprite_index=spr_PlayerBackWalking
+		//reverse for walking backwards
+		if(225<moveDirection and moveDirection<315){
+			image_speed = -1
+		}
+		else{
+			image_speed = 1
+		}
+	}
+	else if(135<=playerDirection and playerDirection<=225){
+		//left sprite
+		sprite_index = spr_PlayerLeftWalking
+		//reverse for walking backwards
+		if!(45<moveDirection and moveDirection<315){
+			image_speed = -1
+		}
+		else{
+			image_speed = 1
+		}
+	}
+	else if(225<playerDirection and playerDirection<315){
+		//down sprite
+		sprite_index = spr_PlayerFrontWalking
+		//reverse for walking backwards
+		if(45<moveDirection and moveDirection<135){
+			image_speed = -1
+		}
+		else{
+			image_speed = 1
+		}
+	}
+	else{
+		//right sprite
+		sprite_index = spr_PlayerRightWalking
+		//reverse for walking backwards
+		if(135<=moveDirection and moveDirection<=225){
+			image_speed = -1
+		}
+		else{
+			image_speed = 1
+		}
+	}
 }
 else{
-	//right sprite
-	sprite_index = spr_PlayerRight
+	//walking
+	if(45<playerDirection and playerDirection<135){
+	//up sprite
+		sprite_index=spr_PlayerBackIdle
+	
+	}
+	else if(135<=playerDirection and playerDirection<=225){
+		//left sprite
+		sprite_index = spr_PlayerLeftIdle
+	
+	}
+	else if(225<playerDirection and playerDirection<315){
+		//down sprite
+		sprite_index = spr_PlayerFrontIdle
+	}
+	else{
+		//right sprite
+		sprite_index = spr_PlayerRightIdle
+	}
+	
 }
 
-if(lastX = x and lastY = y){
-	image_speed = 0
-}
-else{
-	image_speed = 1
-}
+moveDirection = point_direction(x,y,lastX,lastY)
+
+
 
 lastX =x
 lastY = y
+
+depth = -y
