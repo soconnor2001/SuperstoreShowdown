@@ -1,9 +1,9 @@
 /// @description spawn enemy if dead and off screen
 
-show_debug_message(string(enemyType)+" "+string(instance_exists(enemyType)))
+//show_debug_message(string(enemyType)+" "+string(instance_exists(enemyType)))
 
 if( !instance_exists(enemyInstanceID) ){
-	scr_spawnIfOutsideCamera(self,xOffset,yOffset,0)
+	scr_spawnIfOutsideCamera(self,xOffset,yOffset,sprH,sprW,0)
 }
 
 //show_debug_message(string(self) +  string(instance_exists(enemyInstance)) + "\n"+

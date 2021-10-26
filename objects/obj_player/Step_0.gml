@@ -6,39 +6,39 @@
 //use arrow Keys to move
 
 
-if(keyboard_check(ord("W")) and !instance_place(x, y-playerSpeed, obj_wall)){
-	//up
-	scr_VerticalMove(-playerSpeed,self)
-}
-if(keyboard_check(ord("S")) and !instance_place(x, y+playerSpeed, obj_wall)){
-	//down
-	scr_VerticalMove(playerSpeed,self)
-}
-if(keyboard_check(ord("A")) and !instance_place(x-playerSpeed, y, obj_wall)){
-	//left
-	scr_HorizonalMove(-playerSpeed,self)
-}
-if(keyboard_check(ord("D")) and !instance_place(x+playerSpeed, y, obj_wall)){
-	//right
-	scr_HorizonalMove(playerSpeed,self)
-}
-
-//if(keyboard_check(ord("W")) and !scr_checkBox(x-105,y+140-playerSpeed,x+105,y+320-playerSpeed,obj_wall)){
+//if(keyboard_check(ord("W")) and !instance_place(x, y-playerSpeed, obj_wall)){
 //	//up
 //	scr_VerticalMove(-playerSpeed,self)
 //}
-//if(keyboard_check(ord("S")) and !scr_checkBox(x-105,y+140+playerSpeed,x+105,y+320+playerSpeed,obj_wall)){
+//if(keyboard_check(ord("S")) and !instance_place(x, y+playerSpeed, obj_wall)){
 //	//down
 //	scr_VerticalMove(playerSpeed,self)
 //}
-//if(keyboard_check(ord("A")) and !scr_checkBox(x-105-playerSpeed,y+140,x+105-playerSpeed,y+320,obj_wall)){
+//if(keyboard_check(ord("A")) and !instance_place(x-playerSpeed, y, obj_wall)){
 //	//left
 //	scr_HorizonalMove(-playerSpeed,self)
 //}
-//if(keyboard_check(ord("D")) and !scr_checkBox(x-105+playerSpeed,y+140,x+105+playerSpeed,y+320,obj_wall)){
+//if(keyboard_check(ord("D")) and !instance_place(x+playerSpeed, y, obj_wall)){
 //	//right
 //	scr_HorizonalMove(playerSpeed,self)
 //}
+
+if(keyboard_check(ord("W")) and !scr_checkBox(x-174,y+318-playerSpeed,x+210,y+503-playerSpeed,obj_wall)){
+	//up
+	scr_VerticalMove(-playerSpeed,self)
+}
+if(keyboard_check(ord("S")) and !scr_checkBox(x-174,y+318+playerSpeed,x+210,y+503+playerSpeed,obj_wall)){
+	//down
+	scr_VerticalMove(playerSpeed,self)
+}
+if(keyboard_check(ord("A")) and !scr_checkBox(x-174-playerSpeed,y+318,x+210-playerSpeed,y+503,obj_wall)){
+	//left
+	scr_HorizonalMove(-playerSpeed,self)
+}
+if(keyboard_check(ord("D")) and !scr_checkBox(x-174+playerSpeed,y+318,x+210+playerSpeed,y+503,obj_wall)){
+	//right
+	scr_HorizonalMove(playerSpeed,self)
+}
 
 
 // mouse click to attack

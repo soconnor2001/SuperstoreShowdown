@@ -17,6 +17,10 @@
         {"properties":[
             {"propertyId":{"name":"buttonScr","path":"objects/obj_menuButton/obj_menuButton.yy",},"objectId":{"name":"obj_menuButton","path":"objects/obj_menuButton/obj_menuButton.yy",},"value":"scr_playButton","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_menuButton","path":"objects/obj_menuButton/obj_menuButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":288.0,"resourceVersion":"1.0","name":"inst_56AECD49","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"buttonScr","path":"objects/obj_menuButton/obj_menuButton.yy",},"objectId":{"name":"obj_menuButton","path":"objects/obj_menuButton/obj_menuButton.yy",},"value":"scr_quitButton","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"buttonText","path":"objects/obj_menuButton/obj_menuButton.yy",},"objectId":{"name":"obj_menuButton","path":"objects/obj_menuButton/obj_menuButton.yy",},"value":"Quit Game","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_menuButton","path":"objects/obj_menuButton/obj_menuButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":608.0,"resourceVersion":"1.0","name":"inst_C141DC6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":null,"colour":4283564884,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -25,6 +29,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_56AECD49","path":"rooms/MainMenuRoom/MainMenuRoom.yy",},
+    {"name":"inst_C141DC6","path":"rooms/MainMenuRoom/MainMenuRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
