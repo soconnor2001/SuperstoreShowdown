@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tempLifeUp",
-    "path": "sprites/spr_tempLifeUp/spr_tempLifeUp.yy",
+    "name": "spr_lifeUp",
+    "path": "sprites/spr_lifeUp/spr_lifeUp.yy",
   },
   "solid": false,
   "visible": true,
