@@ -11,6 +11,7 @@
     {"id":{"name":"spr_shelfFront","path":"sprites/spr_shelfFront/spr_shelfFront.yy",},"order":23,},
     {"id":{"name":"spr_staticEnemy","path":"sprites/spr_staticEnemy/spr_staticEnemy.yy",},"order":2,},
     {"id":{"name":"snd_mainMenu","path":"sounds/snd_mainMenu/snd_mainMenu.yy",},"order":1,},
+    {"id":{"name":"spr_DeathScreen","path":"sprites/spr_DeathScreen/spr_DeathScreen.yy",},"order":0,},
     {"id":{"name":"Path3","path":"paths/Path3/Path3.yy",},"order":4,},
     {"id":{"name":"obj_staticEnemy","path":"objects/obj_staticEnemy/obj_staticEnemy.yy",},"order":6,},
     {"id":{"name":"Path5","path":"paths/Path5/Path5.yy",},"order":6,},
@@ -26,6 +27,7 @@
     {"id":{"name":"scr_quitButton","path":"scripts/scr_quitButton/scr_quitButton.yy",},"order":11,},
     {"id":{"name":"scr_HorizontalMove","path":"scripts/scr_HorizontalMove/scr_HorizontalMove.yy",},"order":1,},
     {"id":{"name":"spr_collisionCheck","path":"sprites/spr_collisionCheck/spr_collisionCheck.yy",},"order":6,},
+    {"id":{"name":"spr_mainMenuNoSelection","path":"sprites/spr_mainMenuNoSelection/spr_mainMenuNoSelection.yy",},"order":1,},
     {"id":{"name":"spr_PlayerBackIdle","path":"sprites/spr_PlayerBackIdle/spr_PlayerBackIdle.yy",},"order":0,},
     {"id":{"name":"spr_PlayerRightWalking","path":"sprites/spr_PlayerRightWalking/spr_PlayerRightWalking.yy",},"order":7,},
     {"id":{"name":"MainMenuRoom","path":"rooms/MainMenuRoom/MainMenuRoom.yy",},"order":4,},
@@ -136,6 +138,7 @@
     {"folderPath":"folders/Sprites/playerSprites.yy","order":13,"resourceVersion":"1.0","name":"playerSprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/staticEnemt.yy","order":19,"resourceVersion":"1.0","name":"staticEnemt","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/movingEnemy.yy","order":20,"resourceVersion":"1.0","name":"movingEnemy","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Screens.yy","order":27,"resourceVersion":"1.0","name":"Screens","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

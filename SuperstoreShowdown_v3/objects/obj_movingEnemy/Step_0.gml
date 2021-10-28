@@ -6,7 +6,7 @@ if(path_index < 0){
 	path_start(pathToFollow,enemySpeed,path_action_restart,true)
 	
 }
-depth = -y
+depth = -(y+346)
 
 
 //show_debug_message("karen_step: "+sprite_get_name(sprite_index)+ " "+string(image_index)+" >= "+ string(image_number-1))

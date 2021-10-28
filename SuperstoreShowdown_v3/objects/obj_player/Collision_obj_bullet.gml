@@ -4,8 +4,10 @@
 if(scr_checkPlayerSubCollision(id,other)){
 	
 
-	if(!invincible){
+	if(!(invincible or fakeInvincibility)){
 		health -= 30
+		fakeInvincibility=true
+		alarm[1] = hitInvincibilitySeconds * room_speed
 	}
 
 	if(health <= 0){

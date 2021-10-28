@@ -155,4 +155,4 @@ moveDirection = point_direction(x,y,lastX,lastY)
 lastX =x
 lastY = y
 
-depth = -y
+depth = -(y+410)  //sets depth based on player's feet

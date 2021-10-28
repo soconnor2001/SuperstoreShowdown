@@ -7,3 +7,5 @@ lastY = y
 
 depth = -y
 
+fakeInvincibility = false
+

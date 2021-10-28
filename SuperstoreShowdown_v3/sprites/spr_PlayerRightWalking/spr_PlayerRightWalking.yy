@@ -67,7 +67,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 391,
-    "yorigin": 184,
+    "yorigin": 202,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_PlayerRightWalking","path":"sprites/spr_PlayerRightWalking/spr_PlayerRightWalking.yy",},

@@ -1,4 +1,4 @@
-/// @description turn off invincibility
+/// @description turn off power Up invincibility
 
 
 invincible = false
