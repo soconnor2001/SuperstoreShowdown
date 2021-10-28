@@ -8,3 +8,5 @@ attack_obj = instance_create_layer(x,y,"Instances",obj_attack)
 attack_obj.image_angle = point_direction(x,y,cursor.x,cursor.y)
 
 image_index = 0
+
+audio_play_sound(snd_PlayerAttack,9,false)

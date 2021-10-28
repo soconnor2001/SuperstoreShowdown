@@ -36,3 +36,4 @@ if(sprite_index != spr_karenAttack){
 		sprite_index = spr_karenWalkingRight
 	}
 }
+

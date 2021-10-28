@@ -13,8 +13,8 @@
   "soundFile": "snd_mainMenu.mp3",
   "duration": 222.3804,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "music",
+    "path": "folders/Sounds/music.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_mainMenu",

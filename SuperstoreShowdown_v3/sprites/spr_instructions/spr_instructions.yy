@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 719,
+  "bbox_right": 1919,
   "bbox_top": 0,
-  "bbox_bottom": 359,
+  "bbox_bottom": 1079,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 720,
-  "height": 360,
+  "width": 1920,
+  "height": 1080,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dd0b5d3b-9c12-4cd6-ab1e-6c18a8c8eaef","path":"sprites/spr_instructions/spr_instructions.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dd0b5d3b-9c12-4cd6-ab1e-6c18a8c8eaef","path":"sprites/spr_instructions/spr_instructions.yy",},"LayerId":{"name":"94227298-af05-46f2-9c0c-3dde853e458f","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","name":"dd0b5d3b-9c12-4cd6-ab1e-6c18a8c8eaef","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f6ef127f-d1f5-4522-a24b-c24973902cce","path":"sprites/spr_instructions/spr_instructions.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f6ef127f-d1f5-4522-a24b-c24973902cce","path":"sprites/spr_instructions/spr_instructions.yy",},"LayerId":{"name":"48daf8cc-5ad4-4aa9-8603-4c6ed69474bc","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","name":"f6ef127f-d1f5-4522-a24b-c24973902cce","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"744d48d4-cc20-4a36-a07c-0cd3ebe8cc7e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dd0b5d3b-9c12-4cd6-ab1e-6c18a8c8eaef","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"487efd00-565f-4176-b6fa-25f072ee20c2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6ef127f-d1f5-4522-a24b-c24973902cce","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"94227298-af05-46f2-9c0c-3dde853e458f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"48daf8cc-5ad4-4aa9-8603-4c6ed69474bc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Screens",
+    "path": "folders/Sprites/Screens.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_instructions",

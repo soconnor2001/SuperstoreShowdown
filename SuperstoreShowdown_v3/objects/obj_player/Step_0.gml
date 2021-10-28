@@ -156,3 +156,5 @@ lastX =x
 lastY = y
 
 depth = -(y+410)  //sets depth based on player's feet
+
+audio_listener_position(x,y,0)

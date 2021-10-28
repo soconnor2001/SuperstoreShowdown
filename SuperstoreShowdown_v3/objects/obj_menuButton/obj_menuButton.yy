@@ -4,7 +4,7 @@
     "path": "sprites/spr_button/spr_button.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
