@@ -6,8 +6,6 @@
 - Designer: Spencer Jackson
 - Hunter O'Connor
 
-*********************************************
-
 ## Instructions:
 In this game, you are trying to get your groceries for the week while not getting hit with too much Covid.
 You must collect groceries to increase your score while dodging covid bullets to stay alive.
@@ -27,12 +25,10 @@ As you collect groceries, power ups will spawn around the store to help you out.
 ## Win/Lose:
 The game will continue as long as you can survive.
 However, if you manage to score at least 150 point, you win and make it out of the store.
-Otherwise, you loose.
+Otherwise, you lose.
 
-**********************************************
-
-Cheats:
- - Ctrl + p: gain 60 points
- - Ctrl + r: restart the main game room
- - Ctrl + h: same as collecting a Hand Sanitizer power up (health up)
- - Ctrl + i: same as collecting Gas Mask power up (invincibility)
+## Cheats:
+- Ctrl + p: gain 60 points
+- Ctrl + r: restart the main game room
+- Ctrl + h: same as collecting a Hand Sanitizer power up (health up)
+- Ctrl + i: same as collecting Gas Mask power up (invincibility)
