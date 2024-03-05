@@ -4,7 +4,7 @@
 - Producer: Noah Burkhimer
 - Artist: Evie Khang
 - Designer: Spencer Jackson
-- Hunter O'Connor
+- Programmer: Stella OConnor
 
 ## Instructions:
 In this game, you are trying to get your groceries for the week while not getting hit with too much Covid.
